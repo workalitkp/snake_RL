@@ -21,7 +21,6 @@ def main():
                 sys.exit()
             if event.type == pygame.KEYDOWN:
                 keys.append(event.unicode)
-
         game.handle(keys)
         pygame.time.wait(100)
 
